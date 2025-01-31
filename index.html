@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cervical Cancer Predictor</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cervical Cancer Predictor</h1>
+    <p class="form-description">Empowering women's health through early detection and care.</p>
+    <form action="#" method="post">
+      <label for="age">Age</label>
+      <input type="number" id="age" name="age" placeholder="Enter your age" required>
+
+      <label for="pregnancies">Number of Pregnancies</label>
+      <input type="number" id="pregnancies" name="pregnancies" placeholder="Enter number of pregnancies">
+
+      <label for="smoking">Do you smoke?</label>
+      <select id="smoking" name="smoking">
+        <option value="">Select an option</option>
+        <option value="yes">Yes</option>
+        <option value="no">No</option>
+      </select>
+
+      <label for="hpv">HPV Test Result</label>
+      <select id="hpv" name="hpv">
+        <option value="">Select result</option>
+        <option value="positive">Positive</option>
+        <option value="negative">Negative</option>
+      </select>
+
+      <label for="symptoms">Do you have any symptoms (e.g., pelvic pain, bleeding)?</label>
+      <input type="text" id="symptoms" name="symptoms" placeholder="Describe your symptoms">
+
+      <button type="submit">Submit Information</button>
+    </form>
+  </div>
+</body>
+</html>
